@@ -352,7 +352,7 @@ v2 {
 .v2 {
   border-left: 2px solid black;
   height: 60px;
-  margin-bottom:-10px ;
+  margin-bottom:-20px ;
   /* position: absolute;
   margin-top: -62px; */
 }
@@ -408,7 +408,7 @@ v2 {
 .v2 {
   border-left: 2px solid black;
   height: 60px;
-  margin-bottom: -10PX;
+  margin-bottom: -20PX;
   /* position: absolute;
   margin-top: -62px; */
 }
@@ -453,7 +453,7 @@ v2 {
   margin-left: 20%;
   border-left: 2px solid black;
   height: 60px;
-  margin-bottom: -10PX;
+  margin-bottom: -20PX;
   /* position: absolute;
   margin-top: -62px; */
 }
