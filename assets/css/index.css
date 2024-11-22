@@ -600,20 +600,44 @@ v2 {
 
  @media (max-width:767px){
   
-  .v2 {
-    border-left: 2px solid black;
-    height: 60px;
-    /* position: absolute; */
-    /* margin-top: -62px; */
-    margin-bottom: -20px;
-    margin-left: 140px;
-  }
+.horizontal-line{
+border: 2px solid black;
+margin-top:-23px;
+width: 77%;
+
+}
+.hori{
+  margin-left: 15px;
+}
+
 
  .var img {
   width: 135px;
   height: auto;
-  margin-left: 100px;
+  margin-top: 50px;
+  margin-left: 40%;
 } 
+
+.v7 {
+  border-right: 2px solid black;
+
+  height: 925px;
+  margin: 0 10px;
+  right: 80%;
+  position: absolute;
+  width: 100%;
+  
+
+}
+.horizontal-line {
+  border-top: 2px solid rgb(0, 0, 0);
+  width: 81.9%;
+}
+
+
+  
+
+
    
  }
 
