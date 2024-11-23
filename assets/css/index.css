@@ -598,17 +598,17 @@ v2 {
   }
   
 
- @media (max-width:767px){
+ @media  (max-width:767px){
   
-.horizontal-line{
+ .horizontal-line{
 border: 2px solid black;
-margin-top:-23px;
-width: 77%;
+margin-top:-33px;
+width: 30%;
 
 }
 .hori{
-  margin-left: 15px;
-}
+  margin-left:18px;
+} 
 
 
  .var img {
@@ -620,31 +620,334 @@ width: 77%;
 
 .v7 {
   border-right: 2px solid black;
-
-  height: 925px;
+  height: 858px;
   margin: 0 10px;
   right: 80%;
   position: absolute;
   width: 100%;
-  
-
 }
-.horizontal-line {
-  border-top: 2px solid rgb(0, 0, 0);
-  width: 81.9%;
-}
-
-
   
+ }
+ 
+  
+@media (min-width:375px) and (max-width:400px) {
+  
+    /* horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 34%;
+      
+    } */
+    .hori{ 
+      margin-left:18px;
+    }
+    .v7 {
+      border-right: 2px solid black;
+      height: 858px;
+      margin: 0 10px;
+      right: 80%;
+      position: absolute;
+      width: 100%;
+    }
+    
+     .var img {
+      width: 135px;
+      height: auto;
+      margin-top: 50px;
+      margin-left: 40%;
+    } 
+    
+    .v7 {
+      border-right: 2px solid black;
+    
+      height: 858px;
+      margin: 0 10px;
+      right: 80%;
+      position: absolute;
+      width: 100%;
+      
+    
+    }  
+  }
 
+  @media(min-width:401px) and (max-width:420px){
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 34%;
+      
+      }
+      .hori{
+        margin-left:23px;
+      }
+      .v7 {
+        border-right: 2px solid black;
+        height: 858px;
+        margin: 0 10px;
+        right: 80%;
+        position: absolute;
+        width: 100%;
+      }
+      
+      
+       .var img {
+        width: 135px;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 40%;
+      } 
+      
+      .v7 {
+        border-right: 2px solid black;
+      
+        height: 858px;
+        margin: 0 10px;
+        right: 80%;
+        position: absolute;
+        width: 100%;
+        
+      
+      }  
+    }
+
+  @media(min-width:421px) and (max-width:440px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 34%;
+      
+      }
+      .hori{
+        margin-left:28px;
+      }
+      .v7 {
+        border-right: 2px solid black;
+        height: 858px;
+        margin: 0 10px;
+        right: 80%;
+        position: absolute;
+        width: 100%;
+      }
+  }
+  
+  @media(min-width:441px) and (max-width:460px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 30%;
+      
+      }
+      .v7 {
+        border-right: 2px solid black;
+        height: 858px;
+        margin: 0 10px;
+        right: 80%;
+        position: absolute;
+        width: 100%;
+      }
+      .hori{
+        margin-left:34px;
+      }
+  }
+  @media(min-width:461px) and (max-width:480px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 25%;
+      
+      }
+      .hori{
+        margin-left:34px;
+      }
+  }
+
+  @media(min-width:481px) and (max-width:500px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 30%;
+      
+      }
+      .hori{
+        margin-left:38px;
+      }
+  }
+  @media(min-width:501px) and (max-width:520px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 28%;
+      
+      }
+      .hori{
+        margin-left:40px;
+      }
+  }
+
+  @media(min-width:521px) and (max-width:540px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 20%;
+      
+      }
+      .hori{
+        margin-left:48px;
+      }
+  }
+
+  @media(min-width:541px) and (max-width:560px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 30%;
+      
+      }
+      .hori{
+        margin-left:54px;
+      }
+  }
+
+  @media(min-width:561px) and (max-width:575px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 30%;
+      
+      }
+      .hori{
+        margin-left:54px;
+      }
+  }
+
+  @media(min-width:576px) and (max-width:600px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 33%;
+      
+      }
+      .hori{
+        margin-left:30px;
+      }
+  }
+  @media(min-width:601px) and (max-width:620px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 34%;
+      
+      }
+      .hori{
+        margin-left:28px;
+      }
+  }
+
+  @media(min-width:621px) and (max-width:640px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 40%;
+      
+      }
+      .hori{
+        margin-left:20px;
+      }
+  }
+  @media(min-width:641px) and (max-width:660px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 34%;
+      
+      }
+      .hori{
+        margin-left:14px;
+      }
+  }
+  @media(min-width:661px) and (max-width:680px){
+
+    horizontal-line{
+      border: 2px solid black;
+      margin-top:-33px;
+      width: 40%;
+      
+      }
+      .hori{
+        margin-left:8px;
+      }
+  }
+  @media(min-width:681px) and (max-width:700px){
+
+    horizontal-line{
+      /* border: 2px solid black; */
+      margin-top:-33px;
+      width: 43%;
+      
+      }
+      .hori{
+        margin-left:4px;
+      }
+  }
+  @media(min-width:701px) and (max-width:720px){
+
+    horizontal-line{
+      /* border: 2px solid black; */
+      margin-top:-33px;
+      width: 70%;
+      
+      }
+      .hori{
+        margin-left:-3px;
+      }
+  }
+  @media(min-width:721px) and (max-width:740px){
+
+    horizontal-line{
+      /* border: 2px solid black; */
+      margin-top:-33px;
+      width: 70%;
+      
+      }
+
+      .hori{
+        margin-left:-10px;
+      }
+  }
+  @media(min-width:741px) and (max-width:766px){
+
+    horizontal-line{
+      /* border: 2px solid black; */
+      margin-top:-33px;
+      width: 70%;
+      
+      }
+      .v7 {
+        border-right: 2px solid black;
+        height: 858px;
+        margin: 0 10px;
+        right: 80%;
+        position: absolute;
+        width: 100%;
+      }
 
    
- }
-
-
-
-
-
+      .hori{
+        margin-left:-18px;
+      }
+  }
 .vertical-line {
   width: 2px;
   height: 60px;
