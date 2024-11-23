@@ -604,6 +604,7 @@ v2 {
 border: 2px solid black;
 margin-top:-33px;
 width: 30%;
+display: block;
 
 }
 .hori{
@@ -627,12 +628,15 @@ width: 30%;
   width: 100%;
 }
   
+.horizontal-line{
+  overflow: hidden;
+}
  }
  
   
 @media (min-width:375px) and (max-width:400px) {
   
-    /* horizontal-line{
+    horizontal-line{
       border: 2px solid black;
       margin-top:-33px;
       width: 34%;
@@ -892,7 +896,7 @@ width: 30%;
   @media(min-width:681px) and (max-width:700px){
 
     horizontal-line{
-      /* border: 2px solid black; */
+      border: 2px solid black;
       margin-top:-33px;
       width: 43%;
       
@@ -931,11 +935,11 @@ width: 30%;
     horizontal-line{
       /* border: 2px solid black; */
       margin-top:-33px;
-      width: 70%;
+      width: 40%;
       
       }
       .v7 {
-        border-right: 2px solid black;
+        /* border-right: 2px solid black; */
         height: 858px;
         margin: 0 10px;
         right: 80%;
@@ -945,7 +949,7 @@ width: 30%;
 
    
       .hori{
-        margin-left:-18px;
+        margin-left:-10px;
       }
   }
 .vertical-line {
