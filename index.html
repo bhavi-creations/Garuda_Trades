@@ -35,18 +35,20 @@
 </head>
 
 <body>
+
   <section class="blogs ">
     <div class="container  garuda ">
       <img src="assets/images/garuda logo.jpg" alt="Garuda Trades " class="img-fluid">
     </div>
     <section>
-      <div class="container  mt-5">
+      <div class="container  mt-5 ">
+        <h1 style="text-align: center;"> Why Choose Garuda Trades?</h1>
         <div class="row  image-blogs">
-          <div class=" video-container col-12 col-md-6 ">
+          <div class=" video-container col-12 col-md-6 mt-5 ">
 
            
               <video   id="video" poster="poster.jpg" controls repeat>
-                  <source src="assets/images/video.mp4" type="video/mp4">
+                  <source src="assets/images/video1.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
               <!-- <div id="replay-button" class="replay">⟳</div> -->
@@ -79,22 +81,108 @@ replayButton.addEventListener('click', () => {
           </script>
           
 
-          
-
-          <div class=" col-12 col-md-6">
-
-            <h1> Why Choose Garuda Trades?</h1>
-            <p><b>.    Expertise and Experience </b></p>
+  <div class=" col-12 col-md-6 mt-5">
+ <!-- <h1> Why Choose Garuda Trades?</h1> 
+           <p><b>.    Expertise and Experience </b></p>
               <p><b>. Comprehensive Solutions</b></p>
              <p><b>. Advanced Technology</b></p>
              <p><b>. Customized Approach</b></p>
              <p><b>. Exceptional Customer Service</b></p>
              <p><b>. Reliability and Trustworthiness</b></p>
              <p><b>. Competitive Pricing</b></p>
-             <p><b>.Continuous Support and Maintenance</b></p>
-              </p>
+             <p><b>.Continuous Support and Maintenance</b></p> 
+             </p>  -->
+             <div class="readmore">
+              <p class="doc_para_text_mini_service ">  Expertise and Experience With years of hands-on experience in the camera </p>
+              <div class="showthisdiv1  " style="display:none ">
+                  <p class="poetsen_font1 doc_para_text_mini_service">surveillance industry, I possess a deep understanding of security systems, installation, and troubleshooting. My expertise extends to providing tailored solutions, ensuring optimal security and efficiency for diverse environments.
+
+                  </p>
+              </div>
+              <div class="d-flex flex-row justify-content-start">
+                  <p class="get_in_touch1 read_more_text" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore1()">
+                      Read More <i class="fa-solid fa-arrow-right"></i></p>
+              </div>
+          </div>
 
 
+          <div class="readmore">
+              <p class="doc_para_text_mini_service ">Advanced technologies in camera surveillanceinclude AI-powered facial recognition, object detection,</p>
+              <div class="showthisdiv2  " style="display:none ">
+                  <p class="poetsen_font1 doc_para_text_mini_service">   and advanced analytics. These innovations enable real-time monitoring, automated alerts, and enhanced security, improving both accuracy and efficiency in surveillance systems.
+                  </p>
+              </div>
+              <div class="d-flex flex-row justify-content-start">
+                  <p class="get_in_touch2 read_more_text" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore2()">
+                      Read More <i class="fa-solid fa-arrow-right"></i></p>
+              </div>
+          </div>
+
+
+
+          <div class="readmore ">
+              <p class="doc_para_text_mini_service ">Comprehensive solutions in camera surveillance refer to fully integrated  systems that include hardware</p>
+              <div class="showthisdiv3  " style="display:none ">
+                  <p class="poetsen_font1 doc_para_text_mini_service">, software, and support services designed to address all aspects of security needs. These solutions provide end-to-end coverage, from installation to monitoring and maintenance, ensuring robust and efficient surveillance operations.
+
+
+
+
+
+
+
+                  </p>
+              </div>
+              <div class="d-flex flex-row justify-content-start">
+                  <p class="get_in_touch3 read_more_text" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore3()">
+                      Read More <i class="fa-solid fa-arrow-right"></i></p>
+              </div>
+          </div>
+          <script>
+            function toggleReadMore1() {
+                var showThisDiv = document.querySelector('.showthisdiv1');
+                var readMoreText = document.querySelector('.get_in_touch1');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
+            }
+        </script>
+        <script>
+            function toggleReadMore2() {
+                var showThisDiv = document.querySelector('.showthisdiv2');
+                var readMoreText = document.querySelector('.get_in_touch2');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
+            }
+        </script>
+        <script>
+            function toggleReadMore3() {
+                var showThisDiv = document.querySelector('.showthisdiv3');
+                var readMoreText = document.querySelector('.get_in_touch3');
+
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
+            }
+        </script>
+
+      
+          
 
 
           </div>
@@ -104,8 +192,9 @@ replayButton.addEventListener('click', () => {
   </section>
     <div class="social-media-icons ">
       <a href="https://www.facebook.com/Garudatradesandservice/" class="fb-color" target="_blank"><i class="fab fa-facebook"></i></a>
-      <!-- <a href="https://twitter.com" class="tw-color" target="_blank"><i class="bi bi-twitter-x"></i></a> -->
       <a href="https://www.instagram.com/garudatradesandservices1/" class="li-color" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="" class="wts-color" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
     </div>
     </div>
 
@@ -114,16 +203,20 @@ replayButton.addEventListener('click', () => {
       <div class="container">
         <div class="row align-items-center g-4">
           <div class=" mt-5 col-12 col-md-6">
+           <h3> Introduction About the Founder</h3><br>
+            <p><strong>[Founder’s Name]</strong> the visionary behind <strong> Garuda Trades</strong> established the company with a mission to redefine security and surveillance solutions. With a career spanning over <strong>[X years]</strong> in the surveillance and technology sector, <strong>[Founder’s Name]</strong> has been a pioneer in integrating advanced technology with practical security needs.
             
+            Driven by a passion for innovation, <strong>  [Founder’s Name] </strong>founded which have transformed the way businesses and individuals ensure safety.</p>           
 
-            <h4><b>CCTV use cases</b></h4><br>
+
+            <!-- <h4><b>CCTV use cases</b></h4><br>
             <p>Older CCTV systems used small, low-resolution black and white monitors with no interactive capabilities.
               Modern CCTV displays can be color, high-resolution displays and can include the ability to zoom in on an
               image or track something (or someone) among their features. Talk CCTV allows an overseer to speak to
               people within range of the camera's associated speakers. <br>
               n addition, CCTV cameras are instrumental in preventing burglaries, home invasions, and robberies. They
               also deter internal theft and prevent employee stealing. The visual evidence provided by CCTV footage is
-              valuable in solving crimes and increasing the chances of catching the perpetrators.</p>
+              valuable in solving crimes and increasing the chances of catching the perpetrators.</p> -->
           </div>
           <div class=" col-12 col-md-6 mt-5  ">
 
@@ -345,7 +438,6 @@ replayButton.addEventListener('click', () => {
 
 </body>
 </html>
-
 
 
 
