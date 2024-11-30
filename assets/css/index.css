@@ -102,7 +102,7 @@ video {
 }
 
 .image-blogs img {
-  padding-top: 60px;
+  padding-top: 100px;
   width: 520px;
   height: 400px;
 
@@ -1137,7 +1137,7 @@ display: block;
   font-weight: 500;
   line-height: 155%;
   letter-spacing: 0.289px;
-  padding-right: 150px;
+  /* padding-right: 150px; */
 
 }
 
@@ -1207,29 +1207,36 @@ display: block;
   color: #007bff;
 } */
 
-.get_in_touch1{
+/* .get_in_touch1{ */
    /* margin-left: auto; This will push the "Read More" link to the right */
-margin-top: -45px; 
-margin-left: 300px;
-}
+/* margin-top: -45px; 
+margin-left: 100px;
+} */
 
-.get_in_touch2{
+/* .get_in_touch2{
   margin-top: -45px; 
 margin-left: 300px;
 
-}
-.get_in_touch3{
+} */
+/* .get_in_touch3{
   margin-top: -45px; 
-margin-left: 300px;
+margin-left: 100px;
+} */
 
-}
+/* }
 .get_in_touch4{
   margin-top: -45px; 
-margin-left: 300px;
+margin-left: 200px;
 
 }
 .get_in_touch5{
   margin-top: -45px; 
-margin-left: 300px;
+margin-left: 100px;
 
-}
+} */
+/* .readmore{
+  width: 100%;
+} */
+ .sp1{
+  color:  black;
+ }
