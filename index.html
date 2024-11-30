@@ -41,10 +41,10 @@
       <img src="assets/images/garuda logo.jpg" alt="Garuda Trades " class="img-fluid">
     </div>
     <section>
-      <div class="container  mt-5 ">
-        <h1 style="text-align: center;"> Why Choose Garuda Trades?</h1>
+      <div class="container mt-5 ">
+        <h1 class="intro"  ><b> Why Choose Garuda Trades? </b></h1>
         <div class="row  image-blogs">
-          <div class=" video-container col-12 col-md-6 mt-5 ">
+          <div class=" video-container col-12 col-md-6  ">
 
            
               <video   id="video" poster="poster.jpg" controls repeat>
@@ -81,7 +81,7 @@ replayButton.addEventListener('click', () => {
           </script>
           
 
-  <div class=" col-12 col-md-6 mt-5">
+  <div class=" col-12 col-md-6 ">
  <!-- <h1> Why Choose Garuda Trades?</h1> 
            <p><b>.    Expertise and Experience </b></p>
               <p><b>. Comprehensive Solutions</b></p>
@@ -92,8 +92,8 @@ replayButton.addEventListener('click', () => {
              <p><b>. Competitive Pricing</b></p>
              <p><b>.Continuous Support and Maintenance</b></p> 
              </p>  -->
-             <div class="readmore">
-              <p class="doc_para_text_mini_service ">  Expertise and Experience With years of hands-on experience in the camera </p>
+             <div class="">
+              <p class="doc_para_text_mini_service ">  <b>Expertise and Experience</b> With years of hands-on experience in the camera </p>
               <div class="showthisdiv1  " style="display:none ">
                   <p class="poetsen_font1 doc_para_text_mini_service">surveillance industry, I possess a deep understanding of security systems, installation, and troubleshooting. My expertise extends to providing tailored solutions, ensuring optimal security and efficiency for diverse environments.
 
@@ -107,9 +107,9 @@ replayButton.addEventListener('click', () => {
 
 
           <div class="readmore">
-              <p class="doc_para_text_mini_service ">Advanced technologies in camera surveillanceinclude AI-powered facial recognition, object detection,</p>
+              <p class="doc_para_text_mini_service "><b>Advanced technologies in camera</b> surveillanceinclude </p>
               <div class="showthisdiv2  " style="display:none ">
-                  <p class="poetsen_font1 doc_para_text_mini_service">   and advanced analytics. These innovations enable real-time monitoring, automated alerts, and enhanced security, improving both accuracy and efficiency in surveillance systems.
+                  <p class="poetsen_font1 doc_para_text_mini_service">  AI-powered facial recognition, object detection, and advanced analytics. These innovations enable real-time monitoring, automated alerts, and enhanced security, improving both accuracy and efficiency in surveillance systems.
                   </p>
               </div>
               <div class="d-flex flex-row justify-content-start">
@@ -121,16 +121,9 @@ replayButton.addEventListener('click', () => {
 
 
           <div class="readmore ">
-              <p class="doc_para_text_mini_service ">Comprehensive solutions in camera surveillance refer to fully integrated  systems that include hardware</p>
+              <p class="doc_para_text_mini_service "><b>Comprehensive solutions in camera </b> surveillance refer to fully</p>
               <div class="showthisdiv3  " style="display:none ">
-                  <p class="poetsen_font1 doc_para_text_mini_service">, software, and support services designed to address all aspects of security needs. These solutions provide end-to-end coverage, from installation to monitoring and maintenance, ensuring robust and efficient surveillance operations.
-
-
-
-
-
-
-
+                  <p class="poetsen_font1 doc_para_text_mini_service"> integrated  systems that include hardware, software, and support services designed to address all aspects of security needs. These solutions provide end-to-end coverage, from installation to monitoring and maintenance, ensuring robust and efficient surveillance operations.
                   </p>
               </div>
               <div class="d-flex flex-row justify-content-start">
@@ -138,6 +131,30 @@ replayButton.addEventListener('click', () => {
                       Read More <i class="fa-solid fa-arrow-right"></i></p>
               </div>
           </div>
+          <div class="readmore ">
+            <p class="doc_para_text_mini_service "><b>Comprehensive solutions in camera </b> surveillance refer to fully</p>
+            <div class="showthisdiv4  " style="display:none ">
+                <p class="poetsen_font1 doc_para_text_mini_service"> integrated  systems that include hardware, software, and support services designed to address all aspects of security needs. These solutions provide end-to-end coverage, from installation to monitoring and maintenance, ensuring robust and efficient surveillance operations.
+                </p>
+            </div>
+            <div class="d-flex flex-row justify-content-start">
+                <p class="get_in_touch4 read_more_text" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore4()">
+                    Read More <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+        <div class="readmore ">
+          <p class="doc_para_text_mini_service "><b>Comprehensive solutions in camera </b> surveillance refer to fully</p>
+          <div class="showthisdiv5  " style="display:none ">
+              <p class="poetsen_font1 doc_para_text_mini_service"> integrated  systems that include hardware, software, and support services designed to address all aspects of security needs. These solutions provide end-to-end coverage, from installation to monitoring and maintenance, ensuring robust and efficient surveillance operations.
+              </p>
+          </div>
+          <div class="d-flex flex-row justify-content-start">
+              <p class="get_in_touch5 read_more_text" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore5()">
+                  Read More <i class="fa-solid fa-arrow-right"></i></p>
+          </div>
+      </div>
+
+
           <script>
             function toggleReadMore1() {
                 var showThisDiv = document.querySelector('.showthisdiv1');
@@ -180,6 +197,35 @@ replayButton.addEventListener('click', () => {
                 }
             }
         </script>
+                <script>
+                  function toggleReadMore4() {
+                      var showThisDiv = document.querySelector('.showthisdiv4');
+                      var readMoreText = document.querySelector('.get_in_touch4');
+      
+                      if (showThisDiv.style.display === "none") {
+                          showThisDiv.style.display = "block";
+                          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                      } else {
+                          showThisDiv.style.display = "none";
+                          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                      }
+                  }
+              </script>
+        <script>
+          function toggleReadMore5() {
+              var showThisDiv = document.querySelector('.showthisdiv5');
+              var readMoreText = document.querySelector('.get_in_touch5');
+
+              if (showThisDiv.style.display === "none") {
+                  showThisDiv.style.display = "block";
+                  readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+              } else {
+                  showThisDiv.style.display = "none";
+                  readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+              }
+          }
+      </script>
+    
 
       
           
@@ -190,23 +236,41 @@ replayButton.addEventListener('click', () => {
         </div>
        </div>
   </section>
-    <div class="social-media-icons ">
+    <!-- <div class="social-media-icons ">
       <a href="https://www.facebook.com/Garudatradesandservice/" class="fb-color" target="_blank"><i class="fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/garudatradesandservices1/" class="li-color" target="_blank"><i class="bi bi-instagram"></i></a>
       <a href="" class="wts-color" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 
-    </div>
+    </div> -->
+
+
+    <div class="social-icons text-center">
+      <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank">
+          <img src="assets/images/facebook.png" class="img-fluid" alt="" /></a>
+      <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank">
+          <img src="assets/images/instagram.png" class="img-fluid" alt="" /></a>
+          <a href="" class="wts-color" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+
+      <!-- <a
+          href=" https://www.linkedin.com/company/99449038/admin/dashboard/" target="_blank">
+          <img src="assets/img/srinivasa/linkedin.png" class="img-fluid" style="border-radius: 5px" alt="" /></a> -->
+      <!-- <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank">
+          <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt="" /></a>
+    </div> -->
+    
     </div>
 
 
     <section>
       <div class="container">
+        <h2 class="intro "><b> Introduction About the Founder</b></h2><br>
+
         <div class="row align-items-center g-4">
           <div class=" mt-5 col-12 col-md-6">
-           <h3> Introduction About the Founder</h3><br>
-            <p><strong>[Founder’s Name]</strong> the visionary behind <strong> Garuda Trades</strong> established the company with a mission to redefine security and surveillance solutions. With a career spanning over <strong>[X years]</strong> in the surveillance and technology sector, <strong>[Founder’s Name]</strong> has been a pioneer in integrating advanced technology with practical security needs.
-            
-            Driven by a passion for innovation, <strong>  [Founder’s Name] </strong>founded which have transformed the way businesses and individuals ensure safety.</p>           
+            <p><strong>g.rakesh</strong> the visionary behind <span> Garuda Trades</span> established the company with a mission to redefine security and surveillance solutions. With a career spanning over <strong>[X years]</strong> in the surveillance and technology sector, <strong>g.rakesh</strong> has been a pioneer in integrating advanced technology with practical security needs.
+              
+            Driven by a passion for innovation, <strong> g.rakesh</strong>founded which have transformed the way businesses and individuals ensure safety.</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officia repellat at quae perspiciatis debitis, sed blanditiis ad fugiat, ut quam quaerat distinctio accusamus maiores iusto vitae. Doloribus, ratione cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et vitae nostrum provident, quaerat voluptate nobis, maxime, perspiciatis aliquam sit eos aliquid aperiam? Esse accusantium qui inventore temporibus quisquam quidem!</p>          
 
 
             <!-- <h4><b>CCTV use cases</b></h4><br>
@@ -218,7 +282,7 @@ replayButton.addEventListener('click', () => {
               also deter internal theft and prevent employee stealing. The visual evidence provided by CCTV footage is
               valuable in solving crimes and increasing the chances of catching the perpetrators.</p> -->
           </div>
-          <div class=" col-12 col-md-6 mt-5  ">
+          <div class=" col-12 col-md-6   ">
 
             <img src="assets/sliders/slide1.jpg" class="cc-camera img-fluid " alt="Garuda trades">
             <p class="v7"></p>
@@ -438,6 +502,7 @@ replayButton.addEventListener('click', () => {
 
 </body>
 </html>
+
 
 
 
