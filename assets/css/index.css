@@ -1582,3 +1582,14 @@ margin-left: 100px;
   background-color: #333D99;
 }
 
+
+
+.last_text {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #ffffff !important;
+}
