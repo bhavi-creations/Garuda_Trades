@@ -164,6 +164,9 @@ h1 {
     border-top: 2px solid rgb(0, 0, 0);
     width: 82%;
   }
+  .mini1{
+    padding-left: 10px;
+  }
   .flip-back2{
     /* padding: 10px; */
     text-align: center;
@@ -172,6 +175,10 @@ h1 {
 
     font-family: 'Roboto', sans-serif;
 
+  }
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -20px;
   }
 
   .hori {
@@ -189,6 +196,7 @@ h1 {
     width: 120px;
     height: 150px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -214,6 +222,7 @@ h1 {
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 10px;
+    border: none;
   }
   
   .card-front {
@@ -233,6 +242,10 @@ h1 {
     left: 60%;
     transform: translateX(1050%) !important;
     white-space: nowrap;
+    
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .v2 {
     border-left: 2px solid black;
@@ -248,10 +261,11 @@ h1 {
     /* color: dark navy blue; */
     /* color: #444444; */
     /* color: red; */
-    margin-top: 50px;
+    margin-top: 100px;
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;
-     padding-top: 30px;
+     padding-top: 50px;
+     padding-bottom: 20px;
   }
 
   .cc-camera {
@@ -290,6 +304,10 @@ h1 {
     display: flex;
     gap: 20px;
   }
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -20px;
+  }
   .mini1{
     padding-left: 10px;
   }
@@ -306,6 +324,7 @@ h1 {
     width: 120px;
     height: 150px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -358,6 +377,9 @@ h1 {
     transform: translateX(850%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
 
   .v2 {
     border-left: 2px solid black;
@@ -376,7 +398,8 @@ h1 {
     margin-top: 50px;
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 
   .cc-camera {
@@ -411,12 +434,22 @@ h1 {
 @media (min-width:1200px) and (max-width:1400px) {
   .horizontal-line {
     border-top: 2px solid rgb(0, 0, 0);
-    width: 82%;
+    width: 81.7%;
   }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(750%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
+  }
+  .intro{
+    margin-bottom: 100px !important;
+  }
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -20px;
   }
   .card-container {
     display: flex;
@@ -435,6 +468,7 @@ h1 {
     width: 120px;
     height: 150px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -504,7 +538,8 @@ h1 {
     margin-top: 50px;
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 
   .cc-camera {
@@ -548,6 +583,10 @@ h1 {
     font-family: 'Roboto', sans-serif;
 
   }
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -10px;
+  }
   .hori {
     margin-top: 68px;
     margin-left: 84px;
@@ -559,7 +598,9 @@ h1 {
     transform: translateX(600%) !important;
     white-space: nowrap;
   }
-
+  .slide1{
+    margin-top: -50px !important;
+  }
   .cc-camera {
     /* margin-top: 60px; */
     width: 500px;
@@ -575,6 +616,8 @@ h1 {
     width: 120px;
     height: 150px;
     perspective: 1000px;
+    border: none !important;
+
   }
   
   .card-inner {
@@ -589,7 +632,17 @@ h1 {
     transform: rotateY(180deg);
   }
   
-  .card-front,
+  .card-front{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;  border-radius: 10px; 
+    /* border: none !important; */
+  }
   .card-back {
     width: 100%;
     height: 100%;
@@ -598,9 +651,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    border: 1px solid #ccc;  border-radius: 10px; 
+    border: none !important;
   }
+  
   
   .card-front {
     background-color: #fff;
@@ -613,7 +667,8 @@ h1 {
   }
   
   
-  
+
+
   
 
   .intro1 {
@@ -649,6 +704,10 @@ h1 {
     margin-left: 60px;
 
   }
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -30px;
+  }
 
   /* .var img {
     margin-left: -40px;
@@ -679,10 +738,16 @@ h1 {
     font-family: 'Roboto', sans-serif;
 
   }
+  
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -20px;
+  }
   .card {
     width: 100px;
     height: 120px;
-    /* perspective: 1000px; */
+    perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -736,17 +801,22 @@ h1 {
     /* color: dark navy blue; */
     color: #444444;
     /* color: red; */
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 60%;
     transform: translateX(430%) !important;
     white-space: nowrap;
+    padding-top: 4px !important;
+    /* padding-bottom: 20px !important; */
   }
-
+  .slide1{
+    margin-top: -50px !important;
+  }
   .hori {
     /* margin-top: 90px; */
     margin-left: 84px;
@@ -829,15 +899,22 @@ h1 {
     transform: translateX(470%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
   .card-container {
     display: flex;
     gap: 20px;
   }
-  
+  .intro1{
+    /* padding-top: 40px; */
+    margin-bottom: -30px;
+  }
   .card {
     width: 100px;
     height: 120px;
         perspective: 1000px;
+        border: none !important;
   }
   
   .card-inner {
@@ -960,6 +1037,7 @@ h1 {
   width: 100px;
   height: 120px;
   perspective: 1000px;
+  border: none !important;
 }
 
 .card-inner {
@@ -972,6 +1050,10 @@ h1 {
 
 .card:hover .card-inner {
   transform: rotateY(180deg);
+}
+.intro1{
+  /* padding-top: 40px; */
+  margin-bottom: -20px;
 }
 
 .card-front,
@@ -1022,6 +1104,9 @@ h1 {
     left: 50%;
     transform: translateX(500%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
 
 
@@ -1098,6 +1183,7 @@ h1 {
   width: 100px;
   height: 120px;
   perspective: 1000px;
+  border: none !important;
 }
 
 .card-inner {
@@ -1134,7 +1220,10 @@ h1 {
   color: #fff;
   transform: rotateY(180deg);
 }
-
+.intro1{
+  /* padding-top: 40px; */
+  margin-bottom: -20px;
+}
 
 
 
@@ -1161,7 +1250,9 @@ h1 {
     transform: translateX(500%) !important;
     white-space: nowrap;
   }
-
+  .slide1{
+    margin-top: -50px !important;
+  }
 
 
 
@@ -1222,6 +1313,8 @@ h1 {
 
 .need_top_space {
   text-align: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
 
 }
 
@@ -1242,6 +1335,9 @@ h1 {
 
 } */
 
+.found1{
+  padding-bottom: 50px !important;
+}
 
 
 
@@ -1263,6 +1359,10 @@ h1 {
     margin-left: -134px;
     
   }
+  .mini2{
+    margin-top: -150px !important;
+  }
+
   .flip-back2{
     /* padding: 10px; */
     text-align: center;
@@ -1278,6 +1378,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -1333,7 +1434,12 @@ h1 {
     left: 60%;
     transform: translateX(200%) !important;
     white-space: nowrap;
+
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
+
 
   .v7 {
     border-right: 2px solid black;
@@ -1357,8 +1463,20 @@ h1 {
     /* color: red; */
     /* margin-top: 100px; */
     font-family: 'poppins', 'Segoe UI';
-    font-weight: 700;  padding-top: 30px;
+    font-weight: 700;
+
   }
+  .intro1{
+    padding-top: 30px;
+    margin-bottom: -25px !important;
+  }
+ 
+
+  .intro{
+    margin-top: -90px;
+  
+  }
+
 }
 
 @media(min-width:401px) and (max-width:420px) {
@@ -1392,6 +1510,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -1436,6 +1555,10 @@ h1 {
     margin-top: 20px;
     margin-left: 150px;
   }
+  .intro{
+    margin-top: -40px;
+    margin-bottom: -30px;
+  }
 
   .hori {
     margin-left: 34px;
@@ -1444,6 +1567,9 @@ h1 {
     left: 60%;
     transform: translateX(230%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
 
   .v7 {
@@ -1468,8 +1594,19 @@ h1 {
     /* color: red; */
     /* margin-top: 100px; */
     font-family: 'poppins', 'Segoe UI';
-    font-weight: 700;  padding-top: 30px;
+    font-weight: 700; 
+    padding-top: 30px;
+
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
+  
+  .mini2{
+    margin-top: -150px !important;
+  }
+  
 }
 
 @media(min-width:421px) and (max-width:440px) {
@@ -1478,7 +1615,7 @@ h1 {
     border: 2px solid black;
     margin-top: -83px;
     /* width: 3%; */
-
+ 
   }
   .card-container {
     /* display: flex; */
@@ -1503,7 +1640,8 @@ h1 {
   .card {
     width: 100px;
     height: 120px;
-    perspective: 1000px;
+    perspective: 1000px;  
+    border: none !important;
   }
   
   .card-inner {
@@ -1557,6 +1695,9 @@ h1 {
     transform: translateX(230%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
 
   .v7 {
     border-right: 2px solid black;
@@ -1581,6 +1722,18 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
+  
+  .mini2{
+    margin-top: -110px !important;
+  }
+  .intro{
+    margin-top: -40px;
+    margin-bottom: -10px;
+  }
 }
 
 @media(min-width:441px) and (max-width:460px) {
@@ -1590,6 +1743,10 @@ h1 {
     margin-top: -83px;
     width: 30%;
 
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -1620,6 +1777,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -1684,11 +1842,22 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(190%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
+  .mini2{
+    margin-top: -80px !important;
+  } 
+
 }
 
 @media(min-width:461px) and (max-width:480px) {
@@ -1698,6 +1867,10 @@ h1 {
     margin-top: -83px;
     width: 25%;
 
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
   }
   .hori1{
     border-top: 2px solid black;
@@ -1732,6 +1905,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -1798,11 +1972,25 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  /* .intro1{
+
+    margin-bottom: -20px !important;
+  } */
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(220%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
+  .intro1{
+    margin-bottom: -25px !important;
+  }
+  .mini2{
+    margin-top: -100px !important;
+  }
+
 }
 
 @media(min-width:481px) and (max-width:500px) {
@@ -1812,6 +2000,10 @@ h1 {
     margin-top: -33px;
     width: 30%;
 
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -1856,8 +2048,11 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
-  
+  .mini2{
+    margin-top: -80px !important;
+  }
   .card-inner {
     width: 100%;
     height: 100%;
@@ -1917,10 +2112,17 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(250%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
 }
 
@@ -1931,6 +2133,10 @@ h1 {
     margin-top: -33px;
     width: 28%;
 
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -1971,6 +2177,10 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
+  }
+  .mini2{
+    margin-top: -90px !important;
   }
   
   .card-inner {
@@ -2030,10 +2240,17 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(250%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
 }
 
@@ -2045,6 +2262,14 @@ h1 {
     /* margin-top: -33px; */
     width: 20%;
 
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+
+  .mini2{
+    margin-top: -80px !important;
   }
   .mini-service{
     margin-top: 30px;
@@ -2062,6 +2287,9 @@ h1 {
     left: 50%;
     transform: translateX(250%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .flip{
     margin-top: 20px;
@@ -2091,6 +2319,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2117,7 +2346,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 10px;
   }
-  
+
   /* .card-front {
     background-color: #fff;
   } */
@@ -2135,6 +2364,10 @@ h1 {
     /* margin-top: 100px; */
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
+  }
+  .intro1{
+
+    margin-bottom: -20px !important;
   }
   .hori1{
     border-top: 2px solid black;
@@ -2165,6 +2398,10 @@ h1 {
 
     
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
   .flip-back2{
     /* padding: 10px; */
     text-align: center;
@@ -2181,6 +2418,12 @@ h1 {
     left: 50%;
     transform: translateX(300%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
+  }
+  .mini2{
+    margin-top: -40px !important;
   }
   .flip{
     margin-top: 20px;
@@ -2206,6 +2449,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2257,6 +2501,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
 
   .v7 {
     border-right: 2px solid black;
@@ -2279,6 +2527,13 @@ h1 {
     margin-top: -33px;
     width: 29%;
 
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+  .mini2{
+    margin-top: -50px !important;
   }
   .mini-service{
     margin-top: 30px;
@@ -2304,6 +2559,10 @@ h1 {
     /* margin-top: 100px; */
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
+  }
+  .intro1{
+
+    margin-bottom: -20px !important;
   }
 
   .hori {
@@ -2330,6 +2589,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2371,6 +2631,9 @@ h1 {
     transform: translateX(300%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
 
 
   .v7 {
@@ -2395,6 +2658,13 @@ h1 {
     width: 34%;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+  .mini2{
+    margin-top: -70px !important;
+  }
   .flip-back2{
     /* padding: 10px; */
     text-align: center;
@@ -2408,6 +2678,9 @@ h1 {
     left: 50%;
     transform: translateX(310%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .flip{
     margin-top: 20px;
@@ -2430,7 +2703,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
 
+    margin-bottom: -20px !important;
+  }
   .hori {
     margin-left: 35px;
   }
@@ -2450,6 +2726,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2509,6 +2786,9 @@ h1 {
     width: 35%;
 
   }
+  .mini2{
+    margin-top: -40px !important;
+  }
   .mini-service{
     margin-top: 30px;
   }
@@ -2542,6 +2822,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   .hori1{
     border-top: 2px solid black;
@@ -2591,10 +2872,22 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
+
+    margin-bottom: -20px !important;
+  }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
     transform: translateX(320%) !important;
     white-space: nowrap;
+    
+  }
+  .slide1{
+    margin-top: -50px !important;
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
   }
   
   .v7 {
@@ -2619,6 +2912,13 @@ h1 {
     width: 35%;
 
   }
+  .mini2{
+    margin-top: -60px !important;
+  }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
   .card-container {
     /* display: flex; */
     gap: 20px;
@@ -2628,6 +2928,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2703,7 +3004,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
 
+    margin-bottom: -20px !important;
+  }
 
   .v7 {
     border-right: 2px solid black;
@@ -2722,6 +3026,10 @@ h1 {
     transform: translateX(350%) !important;
     white-space: nowrap;
   }
+ 
+  .slide1{
+    margin-top: -50px !important;
+  }
 
 }
 
@@ -2734,6 +3042,10 @@ h1 {
     overflow: hidden;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
   .flip{
     margin-top: 40px;
     margin-left: 300px;
@@ -2742,6 +3054,9 @@ h1 {
     left: 50%;
     transform: translateX(360%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .mini-service{
     margin-top: 30px;
@@ -2773,6 +3088,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2818,7 +3134,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
 
+    margin-bottom: -20px !important;
+  }
 
   .v7 {
     border-right: 2px solid black;
@@ -2833,7 +3152,9 @@ h1 {
     margin-top: -55px;
     margin-left: -134px;
   }
-
+  .mini2{
+    margin-top: -60px !important;
+  }
 }
 
 @media(min-width:661px) and (max-width:680px) {
@@ -2844,6 +3165,10 @@ h1 {
     width: 39%;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
   .flip{
     margin-top: 20px;
     margin-left: 320px;
@@ -2852,6 +3177,9 @@ h1 {
     left: 50%;
     transform: translateX(370%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -2874,7 +3202,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
 
+    margin-bottom: -20px !important;
+  }
   .hori {
     margin-left: 8px;
   }
@@ -2894,6 +3225,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -2949,6 +3281,9 @@ h1 {
     margin-top: -55px;
     margin-left: -134px;
   }
+  .mini2{
+    margin-top: -60px !important;
+  }
 }
 
 @media(min-width:681px) and (max-width:700px) {
@@ -2959,6 +3294,13 @@ h1 {
     width: 39%;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+  .mini2{
+    margin-top: -60px !important;
+  }
   .flip{
     margin-top: 20px;
     margin-left: 340px;
@@ -2967,6 +3309,9 @@ h1 {
     left: 50%;
     transform: translateX(390%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .mini-service{
     margin-top: 30px;
@@ -2983,6 +3328,10 @@ h1 {
     /* margin-top: 100px; */
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
+  }
+  .intro1{
+
+    margin-bottom: -20px !important;
   }
   .var img {
     width: 135px;
@@ -3007,6 +3356,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -3066,6 +3416,13 @@ h1 {
     width: 39%;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+  .mini2{
+    margin-top: -60px !important;
+  }
   .flip{
     margin-top: 20px;
     margin-left: 350px;
@@ -3075,7 +3432,9 @@ h1 {
     transform: translateX(410%) !important;
     white-space: nowrap;
   }
-
+  .slide1{
+    margin-top: -50px !important;
+  }
   .mini-service{
     margin-top: 30px;
   }
@@ -3106,6 +3465,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -3152,7 +3512,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
 
+    margin-bottom: -20px !important;
+  }
 
   .v7 {
     border-right: 2px solid black;
@@ -3181,6 +3544,13 @@ h1 {
     width: 69%;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+  .mini2{
+    margin-top: -60px !important;
+  }
   .flip{
     margin-top: 40px;
     margin-left: 350px;
@@ -3189,6 +3559,9 @@ h1 {
     left: 50%;
     transform: translateX(420%) !important;
     white-space: nowrap;
+  }
+  .slide1{
+    margin-top: -50px !important;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -3211,7 +3584,10 @@ h1 {
     font-family: 'poppins', 'Segoe UI';
     font-weight: 700;  padding-top: 30px;
   }
+  .intro1{
 
+    margin-bottom: -20px !important;
+  }
   .hori{
     margin-right:140px;
   }
@@ -3231,6 +3607,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -3296,6 +3673,13 @@ h1 {
     width: 39%;
 
   }
+  .intro{
+    /* margin-top: -40px; */
+    margin-bottom: -10px;
+  }
+  .mini2{
+    margin-top: -60px !important;
+  }
   .mini-service{
     margin-top: 30px;
   }
@@ -3310,7 +3694,12 @@ h1 {
     /* color: red; */
     /* margin-top: 100px; */
     font-family: 'poppins', 'Segoe UI';
-    font-weight: 700;  padding-top: 30px;
+    font-weight: 700; 
+     padding-top: 30px;
+  }
+  .intro1{
+
+    margin-bottom: -20px !important;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -3334,6 +3723,9 @@ h1 {
     transform: translateX(400%) !important;
     white-space: nowrap;
   }
+  .slide1{
+    margin-top: -50px !important;
+  }
   .var img {
     width: 135px;
     height: auto;
@@ -3349,6 +3741,7 @@ h1 {
     width: 100px;
     height: 120px;
     perspective: 1000px;
+    border: none !important;
   }
   
   .card-inner {
@@ -3455,7 +3848,9 @@ h1 {
 
 
 
-
+.flip2{
+  margin-bottom: 100px !important;
+}
 
 
 
@@ -3594,8 +3989,22 @@ h1 {
   padding-top: 5px;
   font-family: 'poppins', 'Segoe UI';
   font-weight: 700;
-  padding-top: 30px;
+  padding-top: 55px;
 }
+.intro11{
+  text-align: center;
+  /* color: dark navy blue; */
+  color: #444444;
+  /* color: red; */
+  /* margin-top: 50px; */
+  padding-top: 5px;
+  font-family: 'poppins', 'Segoe UI';
+  font-weight: 700;
+  padding-top: 55px;
+/* margin-bottom: -90px !important; */
+ 
+}
+
 
 
 strong {
@@ -3603,6 +4012,12 @@ strong {
 
 }
 
+.intro{
+  margin-bottom: 40px !important;
+}
+.intro11{
+  margin-bottom: 30px !important;
+}
 
 .social-icons {
   z-index: 999;
@@ -3745,6 +4160,8 @@ margin-left: 100px;
   margin-top: 100px;
   background-color: #dedee0;
   width: 100%;
+  /* padding-top: 1px; */
+  padding-bottom: 15px;
 }
 
 .found1 {
@@ -3768,4 +4185,26 @@ hr{
 
 
 
+.need_top_space {
+
+  margin-top: 90px;
+  margin-bottom: 90px;
+
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.intro1{
+  padding-top: 50px ;
+  padding-bottom: 20px;
+}
 
