@@ -412,19 +412,14 @@ h1 {
   .v7 {
     border-right: 2px solid black;
     /* text-align: center; */
-    height: 90px;
+    height: 92px;
     margin: 0 10px;
-    right: 406px;
+    right: 375px;
     position: absolute;
     width: 100%;
     /* position: fixed; */
 
   }
-/* 
-  .var img {
-    margin-left: -40px;
-
-  } */
 
 
 }
@@ -434,7 +429,7 @@ h1 {
 @media (min-width:1200px) and (max-width:1400px) {
   .horizontal-line {
     border-top: 2px solid rgb(0, 0, 0);
-    width: 81.7%;
+    /* width: 81.7%; */
   }
   .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 50%;
@@ -552,12 +547,13 @@ h1 {
   .v7 {
     border-right: 2px solid black;
     /* text-align: center; */
-    height: 90px;
-    margin: 0 10px;
-    right: 406px;
+    height: 107px;
+     /* margin: 0 10px; */
+     right: 30% !important; 
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     /* position: fixed; */
+    
 
   }
 
@@ -565,7 +561,10 @@ h1 {
     margin-left: -40px;
 
   } */
-
+  .horizontal-line {
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 81.7%;
+  }
 
 }
 
@@ -582,6 +581,9 @@ h1 {
 
     font-family: 'Roboto', sans-serif;
 
+  }
+  .cc-camera{
+    width: 300px !important;
   }
   .intro1{
     /* padding-top: 40px; */
@@ -601,12 +603,7 @@ h1 {
   .slide1{
     margin-top: -50px !important;
   }
-  .cc-camera {
-    /* margin-top: 60px; */
-    width: 500px;
-    height: 300px;
-    /* margin-top: 200px; */
-  }
+ 
   .card-container {
     display: flex;
     gap: 20px;
@@ -685,9 +682,9 @@ h1 {
   .v7 {
     border-right: 2px solid black;
     /* text-align: center; */
-    height: 68px;
+    height: 102px;
     margin: 0 10px;
-    right: 406px;
+    right: 255px;
     position: absolute;
     width: 100%;
     /* position: fixed; */
@@ -819,8 +816,12 @@ h1 {
   }
   .hori {
     /* margin-top: 90px; */
-    margin-left: 84px;
+    margin-left: 74px;
 
+  }
+  .cc-camera{
+    width: 500px !important;
+    height: auto;
   }
 
   .var img {
@@ -837,6 +838,9 @@ h1 {
     left: 69%;
     width: 80;
     position: absolute;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
 
 
   }
@@ -846,7 +850,7 @@ h1 {
     /* text-align: center; */
     height: 82px;
     margin: 0 10px;
-    left: 500px;
+    left: 544px;
     position: absolute;
     /* width: 100%; */
 
@@ -857,7 +861,7 @@ h1 {
     border-left: 2px solid black;
     height: 60px;
     margin-bottom: -20px;
-    margin-left: 60px;
+    margin-left: 50px;
     /* margin-left: 44px; */
     /* position: absolute;
   margin-top: -62px; */
@@ -955,7 +959,10 @@ h1 {
   
   
   
-
+  .cc-camera{
+    width: 500px !important;
+    height: auto;
+  }
 
   .intro1 {
     text-align: center;
@@ -1039,7 +1046,10 @@ h1 {
   perspective: 1000px;
   border: none !important;
 }
-
+.cc-camera{
+  width: 500px !important;
+  height: auto;
+}
 .card-inner {
   width: 100%;
   height: 100%;
@@ -1085,7 +1095,7 @@ h1 {
 
   .cc-camera {
     /* margin-top: 60px; */
-    width: 500px;
+    width: 300px !important;
     height: 300px;
     /* margin-top: 200px; */
   }
@@ -1142,9 +1152,9 @@ h1 {
   .v7 {
     border-right: 2px solid black;
     /* text-align: center; */
-    height: 82px;
+    height: 95px;
     margin: 0 10px;
-    left: 530px;
+    left: 608px;
     position: absolute;
     /* width: 100%; */
 
@@ -1165,6 +1175,10 @@ h1 {
     margin-left: 64px;
     /* margin-bottom: 20PX; */
 
+  }
+  .cc-camera{
+    width: 500px !important;
+    height: auto;
   }
   .card-container {
   display: flex;
@@ -1288,7 +1302,7 @@ h1 {
     /* text-align: center; */
     height: 82px;
     margin: 0 10px;
-    left: 530px;
+    left: 620px;
     position: absolute;
     /* width: 100%; */
 
@@ -1318,7 +1332,7 @@ h1 {
 
 }
 
-.v7 {
+/* .v7 {
   border-right: 2px solid black;
 
   margin: 0 10px;
@@ -1327,7 +1341,7 @@ h1 {
 
 
 
-}
+} */
 
 /* .var img {
   margin-left: -20px;
@@ -1356,7 +1370,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -134px;
+    margin-left: -103px;
     
   }
   .mini2{
@@ -1443,9 +1457,10 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
+    position: absolute;
     margin: 0 10px;
-    right: 80%;
+    right: 72%;
     position: absolute;
     width: 100%;
   }
@@ -1476,6 +1491,11 @@ h1 {
     margin-top: -90px;
   
   }
+  .cc-camera{
+  /* margin-left: -50px; */
+  width:300px !important;
+  height: auto !important;
+  }
 
 }
 
@@ -1490,7 +1510,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -128.5px;
+    margin-left: -87px;
   }
   .card-container {
     /* display: flex; */
@@ -1575,9 +1595,9 @@ h1 {
   .v7 {
     border-right: 2px solid black;
     /* border-top: 5px solid blue; */
-    height: 780px;
+    height: 782px;
     margin: 0 10px;
-    right: 80%;
+    right: 70%;
     position: absolute;
     width: 100%;
   }
@@ -1606,7 +1626,11 @@ h1 {
   .mini2{
     margin-top: -150px !important;
   }
-  
+  .cc-camera{
+    /* margin-left: -50px; */
+    width:300px !important;
+    height: auto !important;
+    }
 }
 
 @media(min-width:421px) and (max-width:440px) {
@@ -1634,7 +1658,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -124px;
+    margin-left: -89px;
   }
   
   .card {
@@ -1701,9 +1725,9 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
-    right: 80%;
+    right: 72%;
     position: absolute;
     width: 100%;
   }
@@ -1734,6 +1758,11 @@ h1 {
     margin-top: -40px;
     margin-bottom: -10px;
   }
+  .cc-camera{
+    /* margin-left: -50px; */
+    width:300px !important;
+    height: auto !important;
+    }
 }
 
 @media(min-width:441px) and (max-width:460px) {
@@ -1760,7 +1789,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -150px;
+    margin-left: -90px;
   }
   .var img {
     width: 135px;
@@ -1819,9 +1848,9 @@ h1 {
   }
   .v7 {
     border-right: 2px solid black;
-    height: 780px;
+    height: 783px;
     margin: 0 10px;
-    right: 80%;
+    right: 66%;
     position: absolute;
     width: 100%;
   }
@@ -1832,7 +1861,11 @@ h1 {
   .hori {
     margin-left: 34px;
   }
-
+  .cc-camera{
+    /* margin-left: -50px; */
+    width:300px !important;
+    height: auto !important;
+    }
   .intro1 {
     text-align: center;
     /* color: dark navy blue; */
@@ -1875,7 +1908,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -147px;
+    margin-left: -100px;
   }
   .flip-back2{
     /* padding: 10px; */
@@ -1952,9 +1985,9 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
-    right: 80%;
+    right: 70%;
     position: absolute;
     width: 100%;
   }
@@ -1990,6 +2023,11 @@ h1 {
   .mini2{
     margin-top: -100px !important;
   }
+  .cc-camera{
+    /* margin-left: -50px; */
+    width:300px !important;
+    height: auto !important;
+    }
 
 }
 
@@ -2031,7 +2069,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -162px;
+    margin-left: -114px;
   }
   .var img {
     width: 135px;
@@ -2092,9 +2130,9 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
-    right: 80%;
+    right: 70%;
     position: absolute;
     width: 100%;
   }
@@ -2124,6 +2162,11 @@ h1 {
   .slide1{
     margin-top: -50px !important;
   }
+  .cc-camera{
+    /* margin-left: -50px; */
+    width:300px !important;
+    height: auto !important;
+    }
 }
 
 @media(min-width:501px) and (max-width:520px) {
@@ -2160,7 +2203,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -132px;
+    margin-left: -74px;
   }
   .var img {
     width: 135px;
@@ -2220,9 +2263,9 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
-    right: 75%;
+    right: 64%;
     position: absolute;
     width: 100%;
   }
@@ -2372,14 +2415,14 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -134px;
+    margin-left: -81px;
   }
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
-    right: 76%;
+    right: 66%;
     position: absolute;
     width: 100%;
   }
@@ -2476,11 +2519,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 10px;
   }
-  .hori1{
-    border-top: 2px solid black;
-    margin-top: -55px;
-    margin-left: -134px;
-  }
+
   
   /* .card-front {
     background-color: #fff;
@@ -2505,12 +2544,17 @@ h1 {
 
     margin-bottom: -20px !important;
   }
+  .hori1{
+    border-top: 2px solid black;
+    margin-top: -55px;
+    margin-left: -74px;
+  }
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;;
+    height: 783px;;
     margin: 0 10px;
-    right: 77%;
+    right: 66%;
     position: absolute;
     width: 100%;
   }
@@ -2572,6 +2616,9 @@ h1 {
     border-top: 2px solid black;
     margin-top: -55px;
     margin-left: -134px;
+  }
+  .cc-camera{
+   margin-left: -150px !important;
   }
   .var img {
     width: 135px;
@@ -2638,7 +2685,7 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 77.5%;
     position: absolute;
@@ -2766,7 +2813,7 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 78.5%;
     position: absolute;
@@ -2776,6 +2823,9 @@ h1 {
   .horizontal-line {
     overflow: hidden;
   }
+  .cc-camera{
+    margin-left: -150px !important;
+   }
 }
 
 @media(min-width:601px) and (max-width:620px) {
@@ -2827,7 +2877,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -134px;
+    margin-left: -137px;
   }
   .card-inner {
     width: 100%;
@@ -2892,14 +2942,16 @@ h1 {
   
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 66.5%;
     position: absolute;
     width: 100%;
   }
 
-
+  .cc-camera{
+    margin-left: -100px !important;
+   }
 
 }
 
@@ -2953,7 +3005,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -154px;
+    margin-left: -155px;
   }
   .card-front,
   .card-back {
@@ -3011,7 +3063,7 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 69%;
     position: absolute;
@@ -3030,7 +3082,9 @@ h1 {
   .slide1{
     margin-top: -50px !important;
   }
-
+  .cc-camera{
+    margin-left: -150px !important;
+   }
 }
 
 @media(min-width:641px) and (max-width:660px) {
@@ -3141,7 +3195,7 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 800px;
+    height: 803px;
     margin: 0 10px;
     right: 65.5%;
     position: absolute;
@@ -3155,6 +3209,9 @@ h1 {
   .mini2{
     margin-top: -60px !important;
   }
+  .cc-camera{
+    margin-left: -150px !important;
+   }
 }
 
 @media(min-width:661px) and (max-width:680px) {
@@ -3266,7 +3323,7 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 63.5%;
     position: absolute;
@@ -3279,11 +3336,14 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -134px;
+    margin-left: -136px;
   }
   .mini2{
     margin-top: -60px !important;
   }
+  .cc-camera{
+    margin-left: -150px !important;
+   }
 }
 
 @media(min-width:681px) and (max-width:700px) {
@@ -3400,12 +3460,15 @@ h1 {
   }
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 61.2%;
     position: absolute;
     width: 100%;
   }
+  .cc-camera{
+    margin-left: -100px !important;
+   }
 }
 
 @media(min-width:701px) and (max-width:720px) {
@@ -3519,7 +3582,7 @@ h1 {
 
   .v7 {
     border-right: 2px solid black;
-    height: 782px;
+    height: 783px;
     margin: 0 10px;
     right: 61%;
     position: absolute;
@@ -3534,6 +3597,9 @@ h1 {
     margin-top: -55px;
     margin-left: -134px;
   }
+  .cc-camera{
+    margin-left: -90px !important;
+   }
 }
 
 @media(min-width:721px) and (max-width:740px) {
@@ -3758,7 +3824,7 @@ h1 {
   .hori1{
     border-top: 2px solid black;
     margin-top: -55px;
-    margin-left: -134px;
+    margin-left: -128px;
   }
   .card-front,
   .card-back {
@@ -3783,7 +3849,14 @@ h1 {
     transform: rotateY(180deg);
   }
   
-
+  .v7 {
+    border-right: 2px solid black;
+    height: 802px;
+    margin: 0 10px;
+    right: 62%;
+    position: absolute;
+    width: 100%;
+  }
 
   .hori {
     margin-right: -10px;
@@ -4208,3 +4281,18 @@ button:hover {
   padding-bottom: 20px;
 }
 
+.cc-camera{
+width: 50%;
+
+}
+
+/* .vertical-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+   text-align: center;
+  justify-items: center;
+  border-right: 2px solid rgb(253, 20, 20);
+
+} */
